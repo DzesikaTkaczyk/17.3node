@@ -10,8 +10,8 @@ process.stdin.on('readable', function() {
 	    		process.stdout.write('Quitting app!\n');
 	    		process.exit();
 	    	case '/node':
-				process.stdout.write(process.versions.node);
-				break;
+			process.stdout.write(process.versions.node);
+			break;
 	    	case '/sysLang':
 	    		process.stdout.write(process.env.LANG);
 	    		break;
